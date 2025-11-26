@@ -177,3 +177,120 @@
     fill: white;
 
 }
+
+
+
+
+
+.about-img img {
+    border-radius: 2px;
+}
+
+.about-left {
+    padding: 0 24px;
+}
+
+.about-right {
+    padding: 0 24px;
+}
+
+.about-right h3 {
+    font-family: "Pacifico", cursive;
+    position: relative;
+}
+
+.about-right h2 {
+    font-family: "Nunito", sans-serif;
+    color: #0F172B;
+}
+
+
+
+.about-right h3::after {
+    content: " ";
+    width: 9%;
+    height: 2.5px;
+    background-color: var(--yellow-color);
+    position: absolute;
+    left: 110px;
+    bottom: 50%;
+}
+
+
+.about-exp {
+    border-left: 5px solid var(--yellow-color);
+    text-align: center;
+    line-height: 15px;
+}
+
+.menu-heading h4 {
+    position: relative;
+    font-family: "Pacifico", cursive;
+
+
+}
+
+.menu-heading h4::after {
+    content: " ";
+    width: 4%;
+    height: 2.5px;
+    background-color: var(--yellow-color);
+    position: absolute;
+    right: 530px;
+    top: 15px;
+}
+
+.menu-heading h4::before {
+    content: " ";
+    width: 4%;
+    height: 2.5px;
+    background-color: var(--yellow-color);
+    position: absolute;
+    left: 530px;
+    top: 15px;
+}
+
+.menu-heading h2 {
+    font-family: "Nunito", sans-serif;
+}
+
+.nav-item h5 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+ .menu-nav {
+    position: relative;
+}
+
+.menu-nav::after {
+    content: " ";
+    width: 33%;
+    height: 1px;
+    background-color:rgba(128, 128, 128, 0.235);
+    position: absolute;
+    left: 435px;
+    bottom: 0px;
+}
+
+
+.nav-item:focus ::after{
+    width: 100%;
+}
+
+
+ .nav-item .active {
+    border-bottom: 2px solid var(--yellow-color);
+ }
+ .me-8{
+margin-right: 250px;
+margin-top: 5px;
+
+ }
+ .menu-left img{
+  border-radius: 2px;
+ }
+.menu-price{
+    margin-top: -3px;
+}
