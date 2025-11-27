@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pacifico&display=swap');
 
 :root {
     --yellow-color: #FEA116;
@@ -74,12 +75,26 @@
     padding: 80px 0;
 }
 
+.fs-7 {
+    font-size: 50px;
+    font-weight: bolder !important;
+}
+
 .fs-8 {
     font-size: 70px;
 }
 
-.ms-8{
+.ms-8 {
     margin-left: 50px;
+}
+
+.my-7 {
+    margin-top: 77px;
+}
+
+.fs-9 {
+    font-size: 18px;
+    color: rgb(102, 101, 101);
 }
 
 #hero {
@@ -87,8 +102,9 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    height: 100vh;
+    height: 120vh;
     position: relative;
+    overflow: hidden;
 }
 
 .hero-img img {
@@ -108,7 +124,7 @@
 }
 
 .overlay {
-    height: 100vh;
+    height: 120vh;
     position: absolute;
     top: 0;
     width: 100%;
@@ -177,8 +193,6 @@
     fill: white;
 
 }
-
-
 
 
 
@@ -260,7 +274,7 @@
     margin-top: 10px;
 }
 
- .menu-nav {
+.menu-nav {
     position: relative;
 }
 
@@ -268,29 +282,146 @@
     content: " ";
     width: 33%;
     height: 1px;
-    background-color:rgba(128, 128, 128, 0.235);
+    background-color: rgba(128, 128, 128, 0.235);
     position: absolute;
     left: 435px;
     bottom: 0px;
 }
 
 
-.nav-item:focus ::after{
+.nav-item:focus ::after {
     width: 100%;
 }
 
 
- .nav-item .active {
+.nav-item .active {
     border-bottom: 2px solid var(--yellow-color);
- }
- .me-8{
-margin-right: 250px;
-margin-top: 5px;
+}
 
- }
- .menu-left img{
-  border-radius: 2px;
- }
-.menu-price{
+.me-8 {
+    margin-right: 250px;
+    margin-top: 5px;
+
+}
+
+.menu-left img {
+    border-radius: 2px;
+}
+
+.menu-price {
     margin-top: -3px;
+}
+
+
+
+
+.reserve-right h3 {
+    font-family: "Pacifico", cursive;
+    position: relative;
+
+
+}
+
+.bg-blue {
+    background-color: #0F172B;
+    ;
+}
+
+
+.reserve-img img {
+    height: 90vh;
+}
+
+.reserve-right h3::after {
+    content: " ";
+    width: 10%;
+    height: 2px;
+    background-color: var(--yellow-color);
+    position: absolute;
+    left: 130px;
+    bottom: 10px;
+}
+
+
+.reserve-form input {
+    padding: 15px;
+}
+
+.reserve-form select {
+    padding: 15px;
+}
+
+
+
+
+
+
+.chefs-heading h4 {
+    position: relative;
+    font-family: "Pacifico", cursive;
+
+
+}
+
+.chefs-heading h4::after {
+    content: " ";
+    width: 4%;
+    height: 2.5px;
+    background-color: var(--yellow-color);
+    position: absolute;
+    right: 510px;
+    top: 15px;
+}
+
+.chefs-heading h4::before {
+    content: " ";
+    width: 4%;
+    height: 2.5px;
+    background-color: var(--yellow-color);
+    position: absolute;
+    left: 510px;
+    top: 15px;
+}
+
+.chefs-heading h2 {
+    font-family: "Nunito", sans-serif;
+}
+
+/* .chef-card {
+    overflow: hidden !important;
+} */
+
+.chef-card {
+    overflow: hidden !important;
+    padding-bottom: 0 !important;
+    height: calc(100% - 52px);
+     transition: all 0.52s ease ;
+}
+
+.chef-card img {
+    overflow: hidden;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+
+}
+
+.chef-card:hover img {
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+}
+.chef-card:hover{
+    height: 98%;
+    /* transition: all 0.5s ease ; */
+}
+
+.chef-card a {
+    text-decoration: none;
+    background-color: var(--yellow-color);
+    margin-right: 10px;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+
+
 }
