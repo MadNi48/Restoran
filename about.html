@@ -7,7 +7,10 @@
     <title>About</title>
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" rel="stylesheet" />
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
-<link rel="stylesheet" href="./assets/css/about.css"></head>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/about.css">
+</head>
 
 <body>
     <header id="header">
@@ -28,16 +31,16 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link nav-active active " href="#">About</a>
+                            <a class="nav-link nav-active active " href="about.html">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Services</a>
+                            <a class="nav-link" href="service.html">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Menu</a>
+                            <a class="nav-link" href="menu.html">Menu</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#"></a>
@@ -48,16 +51,16 @@
                                 aria-expanded="false">Pages</a>
 
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item text-dark" href="#">Booking</a></li>
-                                <li><a class="dropdown-item text-dark" href="#">Our Team</a></li>
+                                <li><a class="dropdown-item text-dark" href="booking.html">Booking</a></li>
+                                <li><a class="dropdown-item text-dark" href="team.html">Our Team</a></li>
                                 <li>
                                     <!-- <hr class="dropdown-divider"> -->
                                 </li>
-                                <li><a class="dropdown-item text-dark" href="#">Testimonials</a></li>
+                                <li><a class="dropdown-item text-dark" href="testimonial.html">Testimonials</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contacts</a>
+                            <a class="nav-link" href="contact.html">Contacts</a>
                         </li>
                     </ul>
                     <button type="button" class="btn btn-primary nav-btn bg-yellow  ms-5 ">BOOK A TABLE</button>
@@ -76,7 +79,7 @@
                 <div class="container">
                     <div class="hero-card">
                         <div class="text-light d-flex justify-content-center mt-7">
-                            <h1 class="fs-8  fw-bolder">About Us</h1>
+                            <h1 class="fs-8  fw-bolder"  data-aos="fade-down" data-aos-duration="1300">About Us</h1>
                             <div class="hero-item">
                                 <a href="#">Home </a> <span>/</span>
                                 <a href="#">Pages</a> <span>/</span>
@@ -97,26 +100,26 @@
                         <div class="about-left">
                             <div class="row gy-3 ">
                                 <div class="col-md-6">
-                                    <div class="about-img">
+                                    <div class="about-img"  data-aos="zoom-in" data-aos-duration="900">
                                         <img class="img-fluid " src="./assets/image/about-1 (1).jpg" alt="">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="about-img my-7">
-                                        <img class="img-fluid w-75" src="./assets/image/about-2.jpg" alt="">
+                                        <img class="img-fluid w-75"  data-aos="zoom-in" data-aos-duration="1100" src="./assets/image/about-2.jpg" alt="">
                                     </div>
                                 </div>
 
                                 <div class="col-md-6">
                                     <div class="about-img text-end ">
-                                        <img class="img-fluid w-75" src="./assets/image/about-3.jpg" alt="">
+                                        <img class="img-fluid w-75"  data-aos="zoom-in" data-aos-duration="1300" src="./assets/image/about-3.jpg" alt="">
 
                                     </div>
                                 </div>
 
                                 <div class="col-md-6">
                                     <div class="about-img">
-                                        <img class="img-fluid w-100 " src="./assets/image/about-4.jpg" alt="">
+                                        <img class="img-fluid w-100 "  data-aos="zoom-in" data-aos-duration="1500" src="./assets/image/about-4.jpg" alt="">
                                     </div>
                                 </div>
 
@@ -182,14 +185,14 @@
         <section id="chefs">
             <div class="container">
                 <div>
-                    <div class="chefs-heading mb-5 text-center">
+                    <div class="chefs-heading mb-5 text-center" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
                         <h4 class="yellow-color">Team Members</h4>
                         <h2 class="fs-7 fw-bold">Our Master Chefs</h2>
                     </div>
 
                     <div class="row">
                         <div class="col-md-3">
-                            <div class="chef-card text-center shadow p-4">
+                            <div class="chef-card text-center shadow p-4"  data-aos="fade-up" data-aos-delay="300" data-aos-duration="1300">
                                 <img src="./assets/image/team-1.jpg" alt="">
                                 <h3 class="mt-4 lh-sm">Walter White</h3>
                                 <p class="lh-1 pb-3 text-secondary">Master Chef</p>
@@ -205,7 +208,7 @@
 
 
                         <div class="col-md-3">
-                            <div class="chef-card text-center shadow p-4">
+                            <div class="chef-card text-center shadow p-4"  data-aos="fade-up" data-aos-delay="300" data-aos-duration="1500">
                                 <img src="./assets/image/team-2.jpg" alt="">
                                 <h3 class="mt-4 lh-sm">William Anderson</h3>
                                 <p class="lh-1 pb-3 text-secondary"> Chef</p>
@@ -223,7 +226,7 @@
 
 
                         <div class="col-md-3">
-                            <div class="chef-card   text-center shadow p-4">
+                            <div class="chef-card   text-center shadow p-4"  data-aos="fade-up" data-aos-delay="300" data-aos-duration="1750">
                                 <img src="./assets/image/team-3.jpg" alt="">
                                 <h3 class="mt-4 lh-sm">William Jhonson</h3>
                                 <p class="lh-1  pb-3  text-secondary">Patissier</p>
@@ -241,9 +244,9 @@
 
 
                         <div class="col-md-3">
-                            <div class="chef-card text-center shadow p-4">
+                            <div class="chef-card text-center shadow p-4"  data-aos="fade-up" data-aos-delay="300" data-aos-duration="1850">
                                 <img src="./assets/image/team-4.jpg" alt="">
-                                <h3 class="mt-4 ">White Anderson</h3>
+                                <h3 class="mt-4  lh-sm">White Anderson</h3>
                                 <p class="lh-1  pb-3 text-secondary">Senior Chef</p>
 
                                 <div class="d-flex justify-content-center">
@@ -377,6 +380,11 @@
 
 
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
 </body>
 
 </html>

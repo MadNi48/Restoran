@@ -66,13 +66,11 @@
     background-color: #fea116d8 !important;
     border-color: var(--yellow-color) !important;
 }
-
-.nav-active {
+.nav-active{
     color: var(--yellow-color) !important;
 }
-
-.dropdown a:focus {
-    color: var(--yellow-color) !important;
+.dropdown a:focus{
+color: var(--yellow-color) !important;
 }
 
 .my-8 {
@@ -95,8 +93,7 @@
 .ms-8 {
     margin-left: 50px;
 }
-
-.mt-7 {
+.mt-7{
     margin-top: 100px;
 }
 
@@ -131,13 +128,12 @@
     background-color: #0f172be1;
 }
 
-.hero-card h1 {
-    font-family: "Nunito", sans-serif;
-    margin-left: 250px !important;
+.hero-card h1{
+        font-family: "Nunito", sans-serif;
+        margin-left: 250px !important;
 
 }
-
-.hero-card a {
+.hero-card a{
     text-decoration: none;
     color: var(--yellow-color);
     margin-right: 10px;
@@ -151,7 +147,7 @@
     margin-right: 10px;
 }
 
-.hero-item {
+.hero-item{
     margin-top: 100px;
     display: flex;
     align-items: baseline;
@@ -183,7 +179,23 @@
     color: #0F172B;
 }
 
+.hero-btn {
+    padding: 15px 50px;
+    border-radius: 2px;
+    font-size: 20px;
+    border: 1px solid var(--yellow-color);
+}
 
+.hero-btn:hover {
+    background-color: #fea116d8;
+    border-color: var(--yellow-color);
+}
+
+
+.hero-btn:focus {
+    background-color: #fea116d8 !important;
+    border-color: var(--yellow-color) !important;
+}
 
 .about-right h3::after {
     content: " ";
@@ -257,7 +269,8 @@
 
 .chef-card:hover {
     height: 98%;
-    /* transition: all 0.5s ease ; */
+         transition: all 0.93s ease !important;
+
 }
 
 .chef-card a {
@@ -269,25 +282,6 @@
     padding: 10px;
 
 
-}
-
-
-.hero-btn {
-    padding: 15px 50px;
-    border-radius: 2px;
-    font-size: 20px;
-    border: 1px solid var(--yellow-color);
-}
-
-.hero-btn:hover {
-    background-color: #fea116d8;
-    border-color: var(--yellow-color);
-}
-
-
-.hero-btn:focus {
-    background-color: #fea116d8 !important;
-    border-color: var(--yellow-color) !important;
 }
 
 
