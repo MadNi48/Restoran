@@ -183,6 +183,7 @@
     background-color: var(--yellow-color);
     color: white;
     cursor: pointer;
+
 }
 
 .service-card:hover p {
@@ -328,6 +329,10 @@
 }
 
 
+.reserve-img {
+    position: relative;
+}
+
 .reserve-img img {
     height: 90vh;
 }
@@ -342,6 +347,16 @@
     bottom: 10px;
 }
 
+@keyframes shadow {
+    from {
+        box-shadow: 0 0 6px 6px #FEA116;
+    }
+
+    to {
+        box-shadow: 0 0 0px 8px #FEA116;
+    }
+}
+
 
 .reserve-form input {
     padding: 15px;
@@ -351,6 +366,21 @@
     padding: 15px;
 }
 
+
+
+.play-btn {
+    position: absolute;
+    top: 50%;
+    left: 43%;
+    /* animation-name: shadow;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    overflow: hidden;
+    height: 50px;
+    width: 50px; */
+    font-size: 100px;
+}
 
 
 
@@ -387,9 +417,9 @@
     font-family: "Nunito", sans-serif;
 }
 
-/* .chef-card {
+.chef-card {
     overflow: hidden !important;
-} */
+}
 
 .chef-card {
     overflow: hidden !important;
@@ -413,7 +443,7 @@
 
 .chef-card:hover {
     height: 98%;
-    /* transition: all 0.5s ease ; */
+    transition: all 0.93s ease !important;
 }
 
 .chef-card a {
@@ -432,6 +462,10 @@
     height: 60px;
     width: 60px;
 
+}
+
+.cards {
+    color: white !important;
 }
 
 .testimonial-right h3 {
