@@ -21,7 +21,11 @@
 .navbar {
     background-color: #0F172B !important;
 }
-
+.navbar {
+    position: sticky;
+    top: 0px;
+    z-index: 9;
+}
 .nav-head:hover {
     color: var(--yellow-color);
 }

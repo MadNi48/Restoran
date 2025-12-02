@@ -35,6 +35,11 @@
     font-family: "Nunito", sans-serif;
 
 }
+.navbar {
+    position: sticky;
+    top: 0px;
+    z-index: 9;
+}
 
 .navbar li a {
     color: white;

@@ -13,7 +13,11 @@
 .yellow-color {
     color: var(--yellow-color);
 }
-
+.navbar {
+    position: sticky;
+    top: 0px;
+    z-index: 9;
+}
 .bg-yellow {
     background-color: var(--yellow-color);
 }
