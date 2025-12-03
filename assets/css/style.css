@@ -71,6 +71,10 @@
     background-color: #fea116d8 !important;
     border-color: var(--yellow-color) !important;
 }
+.dropdown a:focus {
+    color: var(--yellow-color) !important;
+}
+
 
 .my-8 {
     margin-top: 100px;
@@ -463,6 +467,34 @@
 }
 
 
+.testimonial-heading h4 {
+    position: relative;
+    font-family: "Pacifico", cursive;
+
+
+}
+
+.testimonial-heading h4::after {
+    content: " ";
+    width: 4%;
+    height: 2.5px;
+    background-color: var(--yellow-color);
+    position: absolute;
+    right: 530px;
+    top: 15px;
+}
+
+.testimonial-heading h4::before {
+    content: " ";
+    width: 4%;
+    height: 2.5px;
+    background-color: var(--yellow-color);
+    position: absolute;
+    left: 530px;
+    top: 15px;
+}
+
+
 .testimonial-img img {
     height: 60px;
     width: 60px;
@@ -526,7 +558,7 @@
     height: 2.5px;
     background-color: var(--yellow-color);
     position: absolute;
-    right: 580px;
+    right: 630px;
     top: 15px;
 }
 
@@ -536,7 +568,7 @@
     height: 2.5px;
     background-color: var(--yellow-color);
     position: absolute;
-    left: 580px;
+    left: 630px;
     top: 15px;
 }
 

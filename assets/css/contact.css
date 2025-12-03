@@ -199,7 +199,7 @@ color: var(--yellow-color) !important;
     height: 2.5px;
     background-color: var(--yellow-color);
     position: absolute;
-    right: 580px;
+    right: 630px;
     top: 15px;
 }
 
@@ -209,7 +209,7 @@ color: var(--yellow-color) !important;
     height: 2.5px;
     background-color: var(--yellow-color);
     position: absolute;
-    left: 580px;
+    left: 630px;
     top: 15px;
 }
 

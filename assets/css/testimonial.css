@@ -17,11 +17,13 @@
 .bg-yellow {
     background-color: var(--yellow-color);
 }
+
 .navbar {
     position: sticky;
     top: 0px;
     z-index: 9;
 }
+
 .navbar {
     background-color: #0F172B !important;
 }
@@ -70,11 +72,13 @@
     background-color: #fea116d8 !important;
     border-color: var(--yellow-color) !important;
 }
-.nav-active{
+
+.nav-active {
     color: var(--yellow-color) !important;
 }
-.dropdown a:focus{
-color: var(--yellow-color) !important;
+
+.dropdown a:focus {
+    color: var(--yellow-color) !important;
 }
 
 .my-8 {
@@ -97,7 +101,8 @@ color: var(--yellow-color) !important;
 .ms-8 {
     margin-left: 50px;
 }
-.mt-7{
+
+.mt-7 {
     margin-top: 100px;
 }
 
@@ -132,12 +137,13 @@ color: var(--yellow-color) !important;
     background-color: #0f172be1;
 }
 
-.hero-card h1{
-        font-family: "Nunito", sans-serif;
-        margin-left: 250px !important;
+.hero-card h1 {
+    font-family: "Nunito", sans-serif;
+    margin-left: 250px !important;
 
 }
-.hero-card a{
+
+.hero-card a {
     text-decoration: none;
     color: var(--yellow-color);
     margin-right: 10px;
@@ -151,7 +157,7 @@ color: var(--yellow-color) !important;
     margin-right: 10px;
 }
 
-.hero-item{
+.hero-item {
     margin-top: 100px;
     display: flex;
     align-items: baseline;
@@ -180,40 +186,41 @@ color: var(--yellow-color) !important;
 .testimonial-card:focus {
     background-color: var(--yellow-color) !important;
 }
+
 .cards {
     color: white !important;
 }
 
 
 
-.chefs-heading h4 {
+.testimonial-heading h4 {
     position: relative;
     font-family: "Pacifico", cursive;
 
 
 }
 
-.chefs-heading h4::after {
+.testimonial-heading h4::after {
     content: " ";
     width: 4%;
     height: 2.5px;
     background-color: var(--yellow-color);
     position: absolute;
-    right: 510px;
+    right: 530px;
     top: 15px;
 }
 
-.chefs-heading h4::before {
+.testimonial-heading h4::before {
     content: " ";
     width: 4%;
     height: 2.5px;
     background-color: var(--yellow-color);
     position: absolute;
-    left: 510px;
+    left: 530px;
     top: 15px;
 }
 
-.chefs-heading h2 {
+.testimonial-heading h2 {
     font-family: "Nunito", sans-serif;
 }
 
